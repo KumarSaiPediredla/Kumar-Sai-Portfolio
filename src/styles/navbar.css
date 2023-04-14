@@ -1,0 +1,59 @@
+.nav-container {
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0.5rem 3rem;
+    background-color: rgb(20, 33, 61);
+    color: white;
+}
+
+.nav-container aside,
+article {
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-container aside div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-container aside div p {
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-container aside div a {
+    text-decoration: none;
+}
+
+.nav-container article ul {
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    cursor: pointer;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 550;
+}
+
+.nav-container article ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.dark-mode .nav-container{
+    background-color: black;
+    box-shadow: 0px 3px 5px white;
+}

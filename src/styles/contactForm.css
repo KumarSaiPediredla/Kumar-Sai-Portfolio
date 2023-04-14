@@ -1,0 +1,48 @@
+.form{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-textfields{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.MuiFormControl-root{
+    width: 100% !important;
+}
+.form-textarea{
+    width: 90%;
+    padding: 1rem;
+    outline: none;
+}
+.form-button{
+    padding: 3px 5px;
+    width: 8rem;
+    background-color: transparent;
+    border-radius: 0.3rem;
+}
+.dark-mode .form-button{
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.3rem;
+}
+.dark-mode .form-textarea{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+#standard-basic{
+   text-align: center;
+}
+.dark-mode #standard-basic{
+    border-bottom: 1px solid white;
+    color: white;
+}

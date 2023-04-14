@@ -1,0 +1,46 @@
+.nav-profile {
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.profile-poto {
+    width: 8rem;
+    border-radius: 0.5rem;
+    border: 2px solid whitesmoke;
+}
+
+.nav-profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-skills {
+    width: 55%;
+    display: flex;
+    justify-content: start !important;
+    align-items: center !important;
+    gap: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.profile-icons {
+    font-size: 1.3rem;
+}
+
+.ant-drawer-wrapper-body {
+    background-color: rgb(20,33,61) !important;
+    color: white;
+}
+.anticon, .ant-drawer-title{
+    color: white !important;
+}
+
+.dark-mode .ant-drawer-wrapper-body{
+    background-color: black !important;
+}

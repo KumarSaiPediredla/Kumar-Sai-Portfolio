@@ -1,0 +1,32 @@
+.contact-container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.contact-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-container h1{
+    border-bottom: 2px solid;
+    letter-spacing: 2px;
+}
+.contact-container p{
+    width: 50%;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+}
+.contact-details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

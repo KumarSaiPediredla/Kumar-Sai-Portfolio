@@ -1,0 +1,78 @@
+.project-container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.project-container h1 {
+    border-bottom: 2px solid;
+    letter-spacing: 2px;
+}
+
+.project-container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.project-container div aside {
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    padding-bottom: 2rem;
+}
+
+.project-container div aside h2 {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: rgb(20, 33, 61);
+}
+
+.skill-list {
+    width: 2rem;
+}
+
+.project-container div aside div,
+span {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.project-img {
+    width: 100%;
+}
+
+.project-btn,
+.git-btn {
+    padding: 0.4rem 1rem;
+    background-color: transparent;
+    border-radius: 0.3rem;
+}
+
+
+.dark-mode .project-btn {
+    color: white;
+    border-radius: 0.3rem;
+    border: 1px solid white;
+}
+.dark-mode .git-btn{
+    color: white;
+    border-radius: 0.3rem;
+    border: 1px solid white;
+}
+.dark-mode .project-container div aside h2{
+    color: white;
+}
