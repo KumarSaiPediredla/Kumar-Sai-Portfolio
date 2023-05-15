@@ -32,7 +32,7 @@ const Profile = () => {
 
             <Drawer title="PROFILE" placement="right" onClose={onClose} open={open}>
                 <div className="nav-profile-container">
-                    <div><img className='profile-poto' src={poto} /></div>
+                    <div><img className='profile-poto' alt='poto' src={poto} /></div>
                     <p className='profile-skills'>
                         <span> <AiOutlineHome className='profile-icons'/> </span>
                         <span>Home</span>

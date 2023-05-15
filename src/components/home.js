@@ -32,10 +32,10 @@ const Home = () => {
                     organization.
                 </p>
                 <div>
-                    <img className='contact-details' src={call} />
-                    <img className='contact-details' src={mail} />
-                    <img className='contact-details' src={gitHub} />
-                    <img className='contact-details' src={linkedin} />
+                    <img className='contact-details' alt='call' src={call} />
+                    <img className='contact-details' alt='mail' src={mail} />
+                    <img className='contact-details' alt='github' src={gitHub} />
+                    <img className='contact-details' alt='linkedin' src={linkedin} />
                 </div>
 
 
@@ -44,7 +44,7 @@ const Home = () => {
             </aside>
 
             <section>
-                <img className='home-img' src={homeLogo} />
+                <img className='home-img' alt='logo' src={homeLogo} />
             </section>
 
         </div >

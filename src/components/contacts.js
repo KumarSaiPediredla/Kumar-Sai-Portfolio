@@ -15,10 +15,10 @@ function Contacts() {
             <h1>CONTACTS</h1>
             <p>Problem solver and aspiring Front-End Web Developer. Want to start career in a reputed software company where everyday there will be a learning experience.</p>
             <div className="contact-details-container">
-                <img className='contact-details' src={call} />
-                <img className='contact-details' src={mail} />
-                <img className='contact-details' src={gitHub} />
-                <img className='contact-details' src={linkedin} />
+                <img className='contact-details' alt="call" src={call} />
+                <img className='contact-details' alt="mail" src={mail} />
+                <img className='contact-details' alt="git" src={gitHub} />
+                <img className='contact-details' alt="linkedin" src={linkedin} />
             </div>
             <div className="contact-form">
                 <Form />

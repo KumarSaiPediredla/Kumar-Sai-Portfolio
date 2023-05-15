@@ -31,14 +31,14 @@ const Projects = () => {
                             onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
                         }}
                     >
-                        <Image width={320.5} src={portfolio} />
+                        <Image width={320.5} alt='portfolio' src={portfolio} />
                     </Image.PreviewGroup>
                     <h2>Portfolio</h2>
                     <div>
-                        <img className='skill-list' src={html} />
-                        <img className='skill-list' src={css} />
-                        <img className='skill-list' src={js} />
-                        <img className='skill-list' src={react} />
+                        <img className='skill-list' alt='html' src={html} />
+                        <img className='skill-list' alt='css' src={css} />
+                        <img className='skill-list' alt='js' src={js} />
+                        <img className='skill-list' alt='react' src={react} />
                     </div>
                     <span>
                         <a href=''><button className='project-btn'>Project</button></a>
@@ -53,14 +53,14 @@ const Projects = () => {
                             onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
                         }}
                     >
-                        <Image width={320.5} src={todo} />
+                        <Image width={320.5} alt='todo' src={todo} />
                     </Image.PreviewGroup>
                     <h2>TodoList</h2>
                     <div>
-                        <img className='skill-list' src={html} />
-                        <img className='skill-list' src={css} />
-                        <img className='skill-list' src={js} />
-                        <img className='skill-list' src={react} />
+                        <img className='skill-list' alt='html' src={html} />
+                        <img className='skill-list' alt='css' src={css} />
+                        <img className='skill-list' alt='js' src={js} />
+                        <img className='skill-list' alt='react' src={react} />
                     </div>
                     <span>
                         <a href=''><button className='project-btn'>Project</button></a>
@@ -74,14 +74,14 @@ const Projects = () => {
                             onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
                         }}
                     >
-                        <Image width={320.5} src={martfury} />
+                        <Image width={320.5} alt='martfury' src={martfury} />
                     </Image.PreviewGroup>
                     <h2>MartFury | Clone</h2>
                     <div>
-                        <img className='skill-list' src={html} />
-                        <img className='skill-list' src={css} />
-                        <img className='skill-list' src={js} />
-                        <img className='skill-list' src={react} />
+                        <img className='skill-list' alt='html' src={html} />
+                        <img className='skill-list' alt='css' src={css} />
+                        <img className='skill-list' alt='js' src={js} />
+                        <img className='skill-list' alt='react' src={react} />
                     </div>
                     <span>
                         <a href=''><button className='project-btn'>Project</button></a>
@@ -96,13 +96,13 @@ const Projects = () => {
                             onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
                         }}
                     >
-                        <Image width={320.5} src={omni} />
+                        <Image width={320.5} alt='omni' src={omni} />
                     </Image.PreviewGroup>
                     <h2>OmniFoods | Clone</h2>
                     <div>
-                        <img className='skill-list' src={html} />
-                        <img className='skill-list' src={css} />
-                        <img className='skill-list' src={js} />
+                        <img className='skill-list' alt='html' src={html} />
+                        <img className='skill-list' alt='css' src={css} />
+                        <img className='skill-list' alt='js' src={js} />
                     </div>
                     <span>
                         <a target='blank' href='https://kumarsai-omni-clone.netlify.app/'><button className='project-btn'>Project</button></a>
@@ -116,13 +116,13 @@ const Projects = () => {
                             onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
                         }}
                     >
-                        <Image width={320.5} src={pickbazar} />
+                        <Image width={320.5} alt='pickbazar' src={pickbazar} />
                     </Image.PreviewGroup>
                     <h2>PickBazar | Clone</h2>
                     <div>
-                        <img className='skill-list' src={html} />
-                        <img className='skill-list' src={css} />
-                        <img className='skill-list' src={bootstrap} />
+                        <img className='skill-list' alt='html' src={html} />
+                        <img className='skill-list' alt='css' src={css} />
+                        <img className='skill-list' alt='bootstrap' src={bootstrap} />
                     </div>
                     <span>
                         <a target='blank' href='https://kumarsai-pickbazar-clone.netlify.app/'><button className='project-btn'>Project</button></a>
@@ -137,13 +137,13 @@ const Projects = () => {
                             onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
                         }}
                     >
-                        <Image width={320.5} src={ogami} />
+                        <Image width={320.5} alt='ogami' src={ogami} />
                     </Image.PreviewGroup>
                     <h2>Ogami | Clone</h2>
                     <div>
-                        <img className='skill-list' src={html} />
-                        <img className='skill-list' src={css} />
-                        <img className='skill-list' src={js} />
+                        <img className='skill-list' alt='html' src={html} />
+                        <img className='skill-list' alt='css' src={css} />
+                        <img className='skill-list' alt='js' src={js} />
                     </div>
                     <span>
                         <a href=''><button className='project-btn'>Project</button></a>
@@ -157,13 +157,13 @@ const Projects = () => {
                             onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
                         }}
                     >
-                        <Image width={320.5} src={mealfinder} />
+                        <Image width={320.5} alt='mealfinder' src={mealfinder} />
                     </Image.PreviewGroup>
                     <h2>Meal Finder | Clone</h2>
                     <div>
-                        <img className='skill-list' src={html} />
-                        <img className='skill-list' src={css} />
-                        <img className='skill-list' src={js} />
+                        <img className='skill-list' alt='html' src={html} />
+                        <img className='skill-list' alt='css' src={css} />
+                        <img className='skill-list' alt='js' src={js} />
                     </div>
                     <span>
                         <a target='blank' href='https://kumarsai-mealfinder-clone.netlify.app/'><button className='project-btn'>Project</button></a>
@@ -178,13 +178,13 @@ const Projects = () => {
                             onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
                         }}
                     >
-                        <Image width={320.5} src={weather} />
+                        <Image width={320.5} alt='weather' src={weather} />
                     </Image.PreviewGroup>
                     <h2>Weather App | Clone</h2>
                     <div>
-                        <img className='skill-list' src={html} />
-                        <img className='skill-list' src={css} />
-                        <img className='skill-list' src={js} />
+                        <img className='skill-list' alt='html' src={html} />
+                        <img className='skill-list' alt='css' src={css} />
+                        <img className='skill-list' alt='js' src={js} />
                     </div>
                     <span>
                         <a target='blank' href='https://kumarsai-weatherapp-clone.netlify.app/'><button className='project-btn'>Project</button></a>
@@ -198,12 +198,12 @@ const Projects = () => {
                             onChange: (current, prev) => console.log(`current index: ${current}, prev index: ${prev}`),
                         }}
                     >
-                        <Image width={320.5} src={startBootstrap} />
+                        <Image width={320.5} alt='start' src={startBootstrap} />
                     </Image.PreviewGroup>
                     <h2>Start Bootstrap | Clone</h2>
                     <div>
-                        <img className='skill-list' src={html} />
-                        <img className='skill-list' src={css} />
+                        <img className='skill-list' alt='html' src={html} />
+                        <img className='skill-list' alt='css' src={css} />
                     </div>
                     <span>
                         <a target='blank' href='https://kumarsai-startbootstrap-clone.netlify.app/'><button className='project-btn'>Project</button></a>

@@ -11,7 +11,7 @@ const Qualification = () => {
             <h1>Qualification</h1>
             <div>
                 <article>
-                    <img src={viet} />
+                    <img alt='viet' src={viet} />
                     <h4>Visakha Institute of Engineering and Technology</h4>
                     <h5>Mechanical</h5>
                     <h5>JNTUK</h5>
@@ -20,7 +20,7 @@ const Qualification = () => {
                 </article>
 
                 <article>
-                    <img src={diploma} />
+                    <img alt='diploma' src={diploma} />
                     <h4>Sankethika Polytechnic College</h4>
                     <h5>Mechanical</h5>
                     <h5>SBTET</h5>
@@ -29,7 +29,7 @@ const Qualification = () => {
                 </article>
 
                 <article>
-                    <img src={ssc} />
+                    <img alt='ssc' src={ssc} />
                     <h4>Sri Chaitanya Techno School</h4>
                     <h5>10<sup>th</sup></h5>
                     <h5>STATE BOARD</h5>

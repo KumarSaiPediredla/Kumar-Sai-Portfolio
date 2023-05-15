@@ -19,19 +19,19 @@ const Skills = () => {
                 <div>
                     <span className='skills-sub-container'>
                         <div>
-                            <img className='skills-list' src={html} />
+                            <img className='skills-list' alt='html' src={html} />
                         </div>
                         <h4>HTML5</h4>
                     </span>
                     <span className='skills-sub-container'>
                         <div>
-                            <img className='skills-list' src={css} />
+                            <img className='skills-list' alt='css' src={css} />
                         </div>
                         <h4>CSS3</h4>
                     </span>
                     <span className='skills-sub-container'>
                         <div>
-                            <img className='skills-list' src={js} />
+                            <img className='skills-list' alt='js' src={js} />
                         </div>
                         <h4>JAVA SCRIPT</h4>
                     </span>
@@ -39,19 +39,19 @@ const Skills = () => {
                 <div>
                     <span className='skills-sub-container'>
                         <div>
-                            <img className='skills-list' src={react} />
+                            <img className='skills-list' alt='react' src={react} />
                         </div>
                         <h4>REACT</h4>
                     </span>
                     <span className='skills-sub-container'>
                         <div>
-                            <img className='skills-list' src={redux} />
+                            <img className='skills-list' alt='redux' src={redux} />
                         </div>
                         <h4>REDUX</h4>
                     </span>
                     <span className='skills-sub-container'>
                         <div>
-                            <img className='skills-list' src={bootstrap} />
+                            <img className='skills-list' alt='bootstrap' src={bootstrap} />
                         </div>
                         <h4>BOOTSTRAP</h4>
                     </span>
